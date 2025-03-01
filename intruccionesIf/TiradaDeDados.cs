@@ -22,6 +22,12 @@ public class TiradaDados{
       total += 2;
     }  
 
+    if ((tirada1 == tirada2) && (tirada2 == tirada3))
+    {
+      Console.WriteLine("¡Sacaste triples! ¡+6 de bonificación al total!");
+      total += 6;
+    }
+
 
     if (total >= 15)
     {
