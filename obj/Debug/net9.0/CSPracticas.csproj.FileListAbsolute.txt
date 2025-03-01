@@ -1,0 +1,15 @@
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.GeneratedMSBuildEditorConfig.editorconfig
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.AssemblyInfoInputs.cache
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.AssemblyInfo.cs
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.csproj.CoreCompileInputs.cache
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.sourcelink.json
+H:\C#Practicas\CSPracticas\bin\Debug\net9.0\CSPracticas.exe
+H:\C#Practicas\CSPracticas\bin\Debug\net9.0\CSPracticas.deps.json
+H:\C#Practicas\CSPracticas\bin\Debug\net9.0\CSPracticas.runtimeconfig.json
+H:\C#Practicas\CSPracticas\bin\Debug\net9.0\CSPracticas.dll
+H:\C#Practicas\CSPracticas\bin\Debug\net9.0\CSPracticas.pdb
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.dll
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\refint\CSPracticas.dll
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.pdb
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\CSPracticas.genruntimeconfig.cache
+H:\C#Practicas\CSPracticas\obj\Debug\net9.0\ref\CSPracticas.dll
