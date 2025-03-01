@@ -2,6 +2,8 @@
   y los muestra en salida.*/
 
 
+using System.Security.Cryptography.X509Certificates;
+
 public class TiradaDados{
   public void tiradaDados()
   {
@@ -16,29 +18,46 @@ public class TiradaDados{
 
     int total = tirada1 + tirada2 + tirada3;
 
-    if ((tirada1 == tirada2) || (tirada2 == tirada3) || (tirada1 == tirada3))
-    {
-      Console.WriteLine("¡Sacaste doble! ¡+2 de bonificación al total!");
-      total += 2;
-    }  
-
-    if ((tirada1 == tirada2) && (tirada2 == tirada3))
-    {
-      Console.WriteLine("¡Sacaste triples! ¡+6 de bonificación al total!");
-      total += 6;
-    }
-
-
-    if (total >= 15)
-    {
-      Console.WriteLine("Has ganado!");
-    }
-    if (total < 15)
-    {
-      Console.WriteLine("Has Perdido!");
-    }
-
     Console.WriteLine($"Tirada de dados: {tirada1} + {tirada2} + {tirada3} = {total}");
 
+    if ((tirada1 == tirada2) || (tirada2 == tirada3) || (tirada1 == tirada3))
+    {
+     
+      if ((tirada1 == tirada2) && (tirada2 == tirada3))
+      {
+        Console.WriteLine("¡Sacaste triples! ¡+6 de bonificación al total!");
+        total += 6;
+      }
+      else
+      {
+        Console.WriteLine("¡Sacaste doble! ¡+2 de bonificación al total!");
+        total += 2;
+    }
+
+      Console.WriteLine($"Su total incluyendo el bono: {total}");  
+
+    }
+    if (total >= 16) 
+    {
+      Console.WriteLine("¡Ganas un nuevo carro!");
+    } 
+    else if (total >= 10)
+    {
+      Console.WriteLine("¡Ganas un nuevo portátil!");
+    }
+    else if (total == 7)
+    {
+      Console.WriteLine("¡has ganado un viaje para 2 personas!");
+    }
+    else
+    {
+      Console.WriteLine("Has ganado una cocina!");
+    }
+      
+    }
   }
-}
+
+
+
+
+      

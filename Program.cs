@@ -1,7 +1,7 @@
 using System;
 
+/*
 //Tirada de dados
-
 class Program
 {
     static void Main(string[] args)
@@ -10,6 +10,7 @@ class Program
        tirada.tiradaDados();
     }
 }
+*/
 
 
 
@@ -27,3 +28,14 @@ class Program
 
 }
 */
+
+//Renovacion Subscripciones
+class Program 
+{
+    static void Main(string[] args)
+    {
+        RenovacionSubs subss = new RenovacionSubs();
+        subss.subs();
+    }
+
+}
